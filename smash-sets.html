@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Aaron Espere</title>
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <!--Bootstrap-->
+        <link href = "external/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel = "stylesheet">
+        <script src = "external/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+        <!--CSS Pages-->
+        <link href = "css/web.css" rel = "stylesheet" type = "text/css">
+        <!--Font Awesome-->
+        <link href = "external/fontawesome-free-5.15.1-web/css/fontawesome.css" rel = "stylesheet">
+        <link href = "external/fontawesome-free-5.15.1-web/css/brands.css" rel = "stylesheet">
+        <link href = "external/fontawesome-free-5.15.1-web/css/solid.css" rel = "stylesheet">
+    </head>
+    <body>
+        <div id = "name">
+            <h1>Aaron Espere</h1>
+        </div>
+        <div id = "navWrapper">
+            <nav class = "navbar navbar-dark bg-dark navbar-expand-lg">
+                <button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+
+                <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+                    <ul class = "navbar-nav mr-auto">
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "index.html">Portfolio</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "aboutMe.html">About Me</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "resume.html">Resume</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "contact.html">Contact</a>
+                        </li>    
+                    </ul>
+                </div>
+                <ul class = "social navbar-nav navbar-right mr-auto">
+                    <li><a class = "nav-link" href = "https://github.com/AAEspere">
+                        <img src = "external/social/GitHub-Mark-Light-120px-plus.png"></a></li>
+                    <li><a class = "nav-link" href = "https://twitter.com/AaronEspere">
+                        <img src = "external/social/Twitter_Social_Icon_Circle_White.png"></a></li>
+                    <li><a class = "nav-link" href = "https://www.linkedin.com/in/aaron-espere-6337bb171/">
+                        <img src = "external/social/LI-In-Bug.png"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id = "wrapper">
+            <h2 id = "centerText">Smash Sets</h2>
+            <img class = "projectIND" src = "external/projects/smash-sets.gif">
+            <div class = "projectTEXT">
+                <p>Smash Sets was a small side project I created that allows users to look up tournament sets for the game
+                    Super Smash Bros. Melee (melee) by Nintendo. I have a interest in the game, and decided to create this after
+                    having a hard time looking a sets for a certain character - since there are 5 games, search results can be 
+                    a mix of all 5 of these games. Smash Sets uses the melee character select screen as its UI. Users just have to 
+                    click on one of the characters, and the application will return tournament sets in the bottom which link to their 
+                    respective Youtube videos.
+                    <br>
+                    <br>
+                    This app has a HTML/CSS/JavaScript front end and a NodeJS runtime environment. It uses the YouTube API to search
+                    and return results. I plan to further expand on this project in the future. First, I would probably integrate a 
+                    database (thinking MySQL) into the application. Having a database will allow me to do more searches without
+                    reaching the limit usage of the YouTube API. Second, I would probably add features to search sets based on player
+                    and tournament. Finally, once all features are implemented, I would probably have the results show on a modal that 
+                    is shown after the character is chosen. 
+                    <br>
+                    <br>
+                    If you want to view the code, click <a href = "https://github.com/AAEspere/smash-sets-melee/tree/frontend">here.</a>
+                </p>
+            </div>
+            <footer>
+                <i>Email: <a href = "mailto:espereaaron@gmail.com">espereaaron@gmail.com</a> &nbsp | &nbsp Phone: (586)838-7322</i>
+            </footer>
+        </div>
+    </body>
+</html>
